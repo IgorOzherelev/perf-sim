@@ -1,0 +1,642 @@
+65536
+0x00010000  AUIPC                                       rd gp           (73728)imm 0x00002000  
+65540
+0x00010004  ADDI        rs1 gp           (73728)                rd gp           (72432)imm 0xfffffaf0  
+65544
+0x00010008  AUIPC                                       rd t0           (69640)imm 0x00001000  
+65548
+0x0001000c  ADDI        rs1 t0           (69640)                rd t0           (70400)imm 0x000002f8  
+65552
+0x00010010  AUIPC                                       rd t1           (69648)imm 0x00001000  
+65556
+0x00010014  ADDI        rs1 t1           (69648)                rd t1           (70456)imm 0x00000328  
+65560
+0x00010018  SW          rs1 t0           (70400)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70400)                rd t0           (70404)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70404)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70404)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70404)                rd t0           (70408)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70408)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70408)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70408)                rd t0           (70412)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70412)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70412)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70412)                rd t0           (70416)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70416)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70416)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70416)                rd t0           (70420)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70420)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70420)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70420)                rd t0           (70424)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70424)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70424)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70424)                rd t0           (70428)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70428)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70428)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70428)                rd t0           (70432)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70432)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70432)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70432)                rd t0           (70436)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70436)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70436)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70436)                rd t0           (70440)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70440)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70440)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70440)                rd t0           (70444)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70444)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70444)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70444)                rd t0           (70448)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70448)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70448)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70448)                rd t0           (70452)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70452)rs2 t1           (70456)               imm 0xfffffff8  
+65560
+0x00010018  SW          rs1 t0           (70452)rs2 zero         (0)               imm 0x00000000  
+65564
+0x0001001c  ADDI        rs1 t0           (70452)                rd t0           (70456)imm 0x00000004  
+65568
+0x00010020  BLTU        rs1 t0           (70456)rs2 t1           (70456)               imm 0xfffffff8  
+65572
+0x00010024  AUIPC                                       rd a0           (65572)imm 0x00000000  
+65576
+0x00010028  ADDI        rs1 a0           (65572)                rd a0           (66252)imm 0x000002a8  
+65580
+0x0001002c  JAL                                         rd ra           (65584)imm 0x000001bc  
+66024
+0x000101e8  ADDI        rs1 a0           (66252)                rd a1           (66252)imm 0x00000000  
+66028
+0x000101ec  ADDI        rs1 zero         (0)                rd a3           (0)imm 0x00000000  
+66032
+0x000101f0  ADDI        rs1 zero         (0)                rd a2           (0)imm 0x00000000  
+66036
+0x000101f4  ADDI        rs1 zero         (0)                rd a0           (0)imm 0x00000000  
+66040
+0x000101f8  JAL                                         rd zero         (66044)imm 0x00000134  
+66348
+0x0001032c  ADDI        rs1 sp           (4194299)                rd sp           (4194267)imm 0xffffffe0  
+66352
+0x00010330  SW          rs1 sp           (4194267)rs2 s0           (0)               imm 0x00000018  
+66356
+0x00010334  LW          rs1 gp           (72432)                rd s0           (69312)imm 0xfffff804  
+66360
+0x00010338  SW          rs1 sp           (4194267)rs2 s1           (0)               imm 0x00000014  
+66364
+0x0001033c  ADDI        rs1 a0           (0)                rd s1           (0)imm 0x00000000  
+66368
+0x00010340  LW          rs1 s0           (69312)                rd a0           (0)imm 0x00000148  
+66372
+0x00010344  SW          rs1 sp           (4194267)rs2 ra           (65584)               imm 0x0000001c  
+66376
+0x00010348  BEQ         rs1 a0           (0)rs2 zero         (0)               imm 0x000000c4  
+66572
+0x0001040c  ADDI        rs1 s0           (69312)                rd a0           (69644)imm 0x0000014c  
+66576
+0x00010410  SW          rs1 s0           (69312)rs2 a0           (69644)               imm 0x00000148  
+66580
+0x00010414  JAL                                         rd zero         (66584)imm 0xffffff38  
+66380
+0x0001034c  LW          rs1 a0           (69644)                rd a5           (0)imm 0x00000004  
+66384
+0x00010350  ADDI        rs1 zero         (0)                rd a4           (31)imm 0x0000001f  
+66388
+0x00010354  ADDI        rs1 a5           (0)                rd a6           (1)imm 0x00000001  
+66392
+0x00010358  BGE         rs1 a4           (31)rs2 a5           (0)               imm 0x00000050  
+66472
+0x000103a8  SLLI        rs1 a5           (0)                rd a4           (0)imm 0x00000002  
+66476
+0x000103ac  BNE         rs1 s1           (0)rs2 zero         (0)               imm 0x00000028  
+66480
+0x000103b0  ADD         rs1 a0           (69644)rs2 a4           (0)rd a4           (69644)                
+66484
+0x000103b4  SW          rs1 a0           (69644)rs2 a6           (1)               imm 0x00000004  
+66488
+0x000103b8  ADDI        rs1 zero         (0)                rd a0           (0)imm 0x00000000  
+66492
+0x000103bc  SW          rs1 a4           (69644)rs2 a1           (66252)               imm 0x00000008  
+66496
+0x000103c0  LW          rs1 sp           (4194267)                rd ra           (65584)imm 0x0000001c  
+66500
+0x000103c4  LW          rs1 sp           (4194267)                rd s0           (0)imm 0x00000018  
+66504
+0x000103c8  LW          rs1 sp           (4194267)                rd s1           (0)imm 0x00000014  
+66508
+0x000103cc  ADDI        rs1 sp           (4194267)                rd sp           (4194299)imm 0x00000020  
+66512
+0x000103d0  JALR        rs1 ra           (65584)                rd zero         (66516)imm 0x00000000  
+65584
+0x00010030  JAL                                         rd ra           (65588)imm 0x000001fc  
+66092
+0x0001022c  ADDI        rs1 sp           (4194299)                rd sp           (4194283)imm 0xfffffff0  
+66096
+0x00010230  SW          rs1 sp           (4194283)rs2 s0           (0)               imm 0x00000008  
+66100
+0x00010234  LUI                                         rd a5           (69632)imm 0x00011000  
+66104
+0x00010238  LUI                                         rd s0           (69632)imm 0x00011000  
+66108
+0x0001023c  SW          rs1 sp           (4194283)rs2 s2           (0)               imm 0x00000000  
+66112
+0x00010240  ADDI        rs1 a5           (69632)                rd a5           (68292)imm 0xfffffac4  
+66116
+0x00010244  ADDI        rs1 s0           (69632)                rd s2           (68292)imm 0xfffffac4  
+66120
+0x00010248  SUB         rs1 a5           (68292)rs2 s2           (68292)rd s2           (0)                
+66124
+0x0001024c  SRAI        rs1 s2           (0)                rd s2           (0)imm 0x00000402  
+66128
+0x00010250  SW          rs1 sp           (4194283)rs2 s1           (0)               imm 0x00000004  
+66132
+0x00010254  SW          rs1 sp           (4194283)rs2 ra           (65588)               imm 0x0000000c  
+66136
+0x00010258  ADDI        rs1 s0           (69632)                rd s0           (68292)imm 0xfffffac4  
+66140
+0x0001025c  ADDI        rs1 zero         (0)                rd s1           (0)imm 0x00000000  
+66144
+0x00010260  BEQ         rs1 s2           (0)rs2 zero         (0)               imm 0x00000018  
+66168
+0x00010278  LUI                                         rd s0           (69632)imm 0x00011000  
+66172
+0x0001027c  JAL                                         rd ra           (66176)imm 0xfffffdcc  
+65608
+0x00010048  JALR        rs1 ra           (66176)                rd zero         (65612)imm 0x00000000  
+66176
+0x00010280  LUI                                         rd a5           (69632)imm 0x00011000  
+66180
+0x00010284  ADDI        rs1 s0           (69632)                rd s2           (68292)imm 0xfffffac4  
+66184
+0x00010288  ADDI        rs1 a5           (69632)                rd a5           (68296)imm 0xfffffac8  
+66188
+0x0001028c  SUB         rs1 a5           (68296)rs2 s2           (68292)rd s2           (4)                
+66192
+0x00010290  SRAI        rs1 s2           (4)                rd s2           (1)imm 0x00000402  
+66196
+0x00010294  ADDI        rs1 s0           (69632)                rd s0           (68292)imm 0xfffffac4  
+66200
+0x00010298  ADDI        rs1 zero         (0)                rd s1           (0)imm 0x00000000  
+66204
+0x0001029c  BEQ         rs1 s2           (1)rs2 zero         (0)               imm 0x00000018  
+66208
+0x000102a0  LW          rs1 s0           (68292)                rd a5           (65788)imm 0x00000000  
+66212
+0x000102a4  ADDI        rs1 s1           (0)                rd s1           (1)imm 0x00000001  
+66216
+0x000102a8  ADDI        rs1 s0           (68292)                rd s0           (68296)imm 0x00000004  
+66220
+0x000102ac  JALR        rs1 a5           (65788)                rd ra           (66224)imm 0x00000000  
+65788
+0x000100fc  ADDI        rs1 sp           (4194283)                rd sp           (4194267)imm 0xfffffff0  
+65792
+0x00010100  ADDI        rs1 zero         (0)                rd a5           (0)imm 0x00000000  
+65796
+0x00010104  SW          rs1 sp           (4194267)rs2 ra           (66224)               imm 0x0000000c  
+65800
+0x00010108  BEQ         rs1 a5           (0)rs2 zero         (0)               imm 0x00000014  
+65820
+0x0001011c  LUI                                         rd a0           (69632)imm 0x00011000  
+65824
+0x00010120  ADDI        rs1 a0           (69632)                rd a0           (69300)imm 0xfffffeb4  
+65832
+0x00010128  BNE         rs1 a5           (0)rs2 zero         (0)               imm 0x00000010  
+65832
+0x00010128  BNE         rs1 a5           (0)rs2 zero         (0)               imm 0x00000010  
+65836
+0x0001012c  LW          rs1 sp           (4194267)                rd ra           (66224)imm 0x0000000c  
+65840
+0x00010130  ADDI        rs1 sp           (4194267)                rd sp           (4194283)imm 0x00000010  
+65844
+0x00010134  JAL                                         rd zero         (65848)imm 0xffffff48  
+65660
+0x0001007c  LUI                                         rd a0           (69632)imm 0x00011000  
+65664
+0x00010080  LUI                                         rd a5           (69632)imm 0x00011000  
+65668
+0x00010084  ADDI        rs1 a0           (69632)                rd a1           (70376)imm 0x000002e8  
+65672
+0x00010088  ADDI        rs1 a5           (69632)                rd a5           (70376)imm 0x000002e8  
+65676
+0x0001008c  SUB         rs1 a5           (70376)rs2 a1           (70376)rd a5           (0)                
+65680
+0x00010090  SRAI        rs1 a5           (0)                rd a5           (0)imm 0x00000402  
+65684
+0x00010094  SRLI        rs1 a5           (0)                rd a1           (0)imm 0x0000001f  
+65688
+0x00010098  ADD         rs1 a1           (0)rs2 a5           (0)rd a1           (0)                
+65692
+0x0001009c  SRAI        rs1 a1           (0)                rd a1           (0)imm 0x00000401  
+65696
+0x000100a0  BEQ         rs1 a1           (0)rs2 zero         (0)               imm 0x00000014  
+65716
+0x000100b4  JALR        rs1 ra           (66224)                rd zero         (65720)imm 0x00000000  
+66224
+0x000102b0  BNE         rs1 s2           (1)rs2 s1           (1)               imm 0xfffffff0  
+66228
+0x000102b4  LW          rs1 sp           (4194283)                rd ra           (65588)imm 0x0000000c  
+66232
+0x000102b8  LW          rs1 sp           (4194283)                rd s0           (0)imm 0x00000008  
+66236
+0x000102bc  LW          rs1 sp           (4194283)                rd s1           (0)imm 0x00000004  
+66240
+0x000102c0  LW          rs1 sp           (4194283)                rd s2           (0)imm 0x00000000  
+66244
+0x000102c4  ADDI        rs1 sp           (4194283)                rd sp           (4194299)imm 0x00000010  
+66248
+0x000102c8  JALR        rs1 ra           (65588)                rd zero         (66252)imm 0x00000000  
+65588
+0x00010034  LW          rs1 sp           (4194299)                rd a0           (0)imm 0x00000000  
+65592
+0x00010038  ADDI        rs1 sp           (4194299)                rd a1           (4194303)imm 0x00000004  
+65596
+0x0001003c  ADDI        rs1 zero         (0)                rd a2           (0)imm 0x00000000  
+65600
+0x00010040  JAL                                         rd ra           (65604)imm 0x00000108  
+65864
+0x00010148  ADDI        rs1 sp           (4194299)                rd sp           (4194235)imm 0xffffffc0  
+65868
+0x0001014c  SW          rs1 sp           (4194235)rs2 ra           (65604)               imm 0x0000003c  
+65872
+0x00010150  SW          rs1 sp           (4194235)rs2 s0           (0)               imm 0x00000038  
+65876
+0x00010154  ADDI        rs1 sp           (4194235)                rd s0           (4194299)imm 0x00000040  
+65880
+0x00010158  SW          rs1 s0           (4194299)rs2 zero         (0)               imm 0xffffffec  
+65884
+0x0001015c  ADDI        rs1 zero         (0)                rd a5           (3)imm 0x00000003  
+65888
+0x00010160  SW          rs1 s0           (4194299)rs2 a5           (3)               imm 0xffffffc4  
+65892
+0x00010164  ADDI        rs1 zero         (0)                rd a5           (5)imm 0x00000005  
+65896
+0x00010168  SW          rs1 s0           (4194299)rs2 a5           (5)               imm 0xffffffd0  
+65900
+0x0001016c  ADDI        rs1 zero         (0)                rd a5           (5)imm 0x00000005  
+65904
+0x00010170  SW          rs1 s0           (4194299)rs2 a5           (5)               imm 0xffffffd4  
+65908
+0x00010174  LW          rs1 s0           (4194299)                rd a5           (5)imm 0xffffffd0  
+65916
+0x0001017c  ADDI        rs1 a4           (69644)                rd a1           (69644)imm 0x00000000  
+65916
+0x0001017c  ADDI        rs1 a4           (69644)                rd a1           (69644)imm 0x00000000  
+65920
+0x00010180  ADDI        rs1 a5           (5)                rd a0           (5)imm 0x00000000  
+65924
+0x00010184  JAL                                         rd ra           (65928)imm 0x00000040  
+65988
+0x000101c4  ADDI        rs1 a0           (5)                rd a2           (5)imm 0x00000000  
+65992
+0x000101c8  ADDI        rs1 zero         (0)                rd a0           (0)imm 0x00000000  
+65996
+0x000101cc  SLLI        rs1 a1           (69644)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (69644)                rd a1           (34822)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (5)                rd a2           (10)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (34822)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (34822)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (34822)                rd a1           (17411)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (10)                rd a2           (20)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (17411)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (17411)                rd a3           (-2147483648)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (-2147483648)rs2 zero         (0)               imm 0x00000008  
+66004
+0x000101d4  ADD         rs1 a0           (0)rs2 a2           (20)rd a0           (20)                
+66008
+0x000101d8  SRLI        rs1 a1           (17411)                rd a1           (8705)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (20)                rd a2           (40)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (8705)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (8705)                rd a3           (-2147483648)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (-2147483648)rs2 zero         (0)               imm 0x00000008  
+66004
+0x000101d4  ADD         rs1 a0           (20)rs2 a2           (40)rd a0           (60)                
+66008
+0x000101d8  SRLI        rs1 a1           (8705)                rd a1           (4352)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (40)                rd a2           (80)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (4352)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (4352)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (4352)                rd a1           (2176)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (80)                rd a2           (160)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (2176)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (2176)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (2176)                rd a1           (1088)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (160)                rd a2           (320)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (1088)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (1088)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (1088)                rd a1           (544)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (320)                rd a2           (640)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (544)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (544)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (544)                rd a1           (272)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (640)                rd a2           (1280)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (272)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (272)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (272)                rd a1           (136)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (1280)                rd a2           (2560)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (136)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (136)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (136)                rd a1           (68)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (2560)                rd a2           (5120)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (68)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (68)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (68)                rd a1           (34)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (5120)                rd a2           (10240)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (34)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (34)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (34)                rd a1           (17)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (10240)                rd a2           (20480)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (17)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (17)                rd a3           (-2147483648)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (-2147483648)rs2 zero         (0)               imm 0x00000008  
+66004
+0x000101d4  ADD         rs1 a0           (60)rs2 a2           (20480)rd a0           (20540)                
+66008
+0x000101d8  SRLI        rs1 a1           (17)                rd a1           (8)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (20480)                rd a2           (40960)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (8)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (8)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (8)                rd a1           (4)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (40960)                rd a2           (81920)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (4)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (4)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (4)                rd a1           (2)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (81920)                rd a2           (163840)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (2)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (2)                rd a3           (0)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (0)rs2 zero         (0)               imm 0x00000008  
+66008
+0x000101d8  SRLI        rs1 a1           (2)                rd a1           (1)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (163840)                rd a2           (327680)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (1)rs2 zero         (0)               imm 0xffffffec  
+65996
+0x000101cc  SLLI        rs1 a1           (1)                rd a3           (-2147483648)imm 0x0000001f  
+66000
+0x000101d0  BGE         rs1 a3           (-2147483648)rs2 zero         (0)               imm 0x00000008  
+66004
+0x000101d4  ADD         rs1 a0           (20540)rs2 a2           (327680)rd a0           (348220)                
+66008
+0x000101d8  SRLI        rs1 a1           (1)                rd a1           (0)imm 0x00000001  
+66012
+0x000101dc  SLLI        rs1 a2           (327680)                rd a2           (655360)imm 0x00000001  
+66016
+0x000101e0  BNE         rs1 a1           (0)rs2 zero         (0)               imm 0xffffffec  
+66020
+0x000101e4  JALR        rs1 ra           (65928)                rd zero         (66024)imm 0x00000000  
+65928
+0x00010188  ADDI        rs1 a0           (348220)                rd a5           (348220)imm 0x00000000  
+65932
+0x0001018c  ADDI        rs1 a5           (348220)                rd a4           (348220)imm 0x00000000  
+65940
+0x00010194  ADD         rs1 a4           (348220)rs2 a5           (348220)rd a5           (696440)                
+65940
+0x00010194  ADD         rs1 a4           (348220)rs2 a5           (696440)rd a5           (1044660)                
+65944
+0x00010198  SW          rs1 s0           (4194299)rs2 a5           (1044660)               imm 0xffffffc8  
+65948
+0x0001019c  LW          rs1 s0           (4194299)                rd a4           (5)imm 0xffffffd0  
+65956
+0x000101a4  ADD         rs1 a4           (5)rs2 a5           (1044660)rd a5           (1044665)                
+65956
+0x000101a4  ADD         rs1 a4           (5)rs2 a5           (1044665)rd a5           (1044670)                
+65960
+0x000101a8  SW          rs1 s0           (4194299)rs2 a5           (1044670)               imm 0xffffffcc  
+65964
+0x000101ac  ADDI        rs1 zero         (0)                rd a5           (0)imm 0x00000000  
+65968
+0x000101b0  ADDI        rs1 a5           (0)                rd a0           (0)imm 0x00000000  
+65972
+0x000101b4  LW          rs1 sp           (4194235)                rd ra           (65604)imm 0x0000003c  
+65976
+0x000101b8  LW          rs1 sp           (4194235)                rd s0           (0)imm 0x00000038  
+65980
+0x000101bc  ADDI        rs1 sp           (4194235)                rd sp           (4194299)imm 0x00000040  
+65984
+0x000101c0  JALR        rs1 ra           (65604)                rd zero         (65988)imm 0x00000000  
+65604
+0x00010044  JAL                                         rd zero         (65608)imm 0x000001b8  
+66044
+0x000101fc  ADDI        rs1 sp           (4194299)                rd sp           (4194283)imm 0xfffffff0  
+66048
+0x00010200  ADDI        rs1 zero         (0)                rd a1           (0)imm 0x00000000  
+66052
+0x00010204  SW          rs1 sp           (4194283)rs2 s0           (0)               imm 0x00000008  
+66056
+0x00010208  SW          rs1 sp           (4194283)rs2 ra           (65604)               imm 0x0000000c  
+66060
+0x0001020c  ADDI        rs1 a0           (0)                rd s0           (0)imm 0x00000000  
+66064
+0x00010210  JAL                                         rd ra           (66068)imm 0x00000210  
+66592
+0x00010420  ADDI        rs1 sp           (4194283)                rd sp           (4194219)imm 0xffffffc0  
+66596
+0x00010424  SW          rs1 sp           (4194219)rs2 s7           (0)               imm 0x0000001c  
+66600
+0x00010428  LW          rs1 gp           (72432)                rd s7           (69312)imm 0xfffff804  
+66604
+0x0001042c  SW          rs1 sp           (4194219)rs2 s6           (0)               imm 0x00000020  
+66608
+0x00010430  SW          rs1 sp           (4194219)rs2 s2           (0)               imm 0x00000030  
+66612
+0x00010434  SW          rs1 sp           (4194219)rs2 s4           (0)               imm 0x00000028  
+66616
+0x00010438  SW          rs1 sp           (4194219)rs2 s5           (0)               imm 0x00000024  
+66620
+0x0001043c  SW          rs1 sp           (4194219)rs2 s8           (0)               imm 0x00000018  
+66624
+0x00010440  SW          rs1 sp           (4194219)rs2 s9           (0)               imm 0x00000014  
+66628
+0x00010444  SW          rs1 sp           (4194219)rs2 ra           (66068)               imm 0x0000003c  
+66632
+0x00010448  SW          rs1 sp           (4194219)rs2 s0           (0)               imm 0x00000038  
+66636
+0x0001044c  SW          rs1 sp           (4194219)rs2 s1           (0)               imm 0x00000034  
+66640
+0x00010450  SW          rs1 sp           (4194219)rs2 s3           (0)               imm 0x0000002c  
+66644
+0x00010454  SW          rs1 sp           (4194219)rs2 s10          (0)               imm 0x00000010  
+66648
+0x00010458  SW          rs1 sp           (4194219)rs2 s11          (0)               imm 0x0000000c  
+66652
+0x0001045c  ADDI        rs1 a0           (0)                rd s5           (0)imm 0x00000000  
+66656
+0x00010460  ADDI        rs1 a1           (0)                rd s2           (0)imm 0x00000000  
+66660
+0x00010464  ADDI        rs1 s7           (69312)                rd s8           (69640)imm 0x00000148  
+66664
+0x00010468  ADDI        rs1 zero         (0)                rd s4           (1)imm 0x00000001  
+66668
+0x0001046c  ADDI        rs1 zero         (0)                rd s9           (-1)imm 0xffffffff  
+66672
+0x00010470  ADDI        rs1 zero         (0)                rd s6           (0)imm 0x00000000  
+66680
+0x00010478  BEQ         rs1 s3           (0)rs2 zero         (0)               imm 0x0000005c  
+66772
+0x000104d4  LW          rs1 sp           (4194219)                rd ra           (66068)imm 0x0000003c  
+66776
+0x000104d8  LW          rs1 sp           (4194219)                rd s0           (0)imm 0x00000038  
+66780
+0x000104dc  LW          rs1 sp           (4194219)                rd s1           (0)imm 0x00000034  
+66784
+0x000104e0  LW          rs1 sp           (4194219)                rd s2           (0)imm 0x00000030  
+66788
+0x000104e4  LW          rs1 sp           (4194219)                rd s3           (0)imm 0x0000002c  
+66792
+0x000104e8  LW          rs1 sp           (4194219)                rd s4           (0)imm 0x00000028  
+66796
+0x000104ec  LW          rs1 sp           (4194219)                rd s5           (0)imm 0x00000024  
+66800
+0x000104f0  LW          rs1 sp           (4194219)                rd s6           (0)imm 0x00000020  
+66804
+0x000104f4  LW          rs1 sp           (4194219)                rd s7           (0)imm 0x0000001c  
+66808
+0x000104f8  LW          rs1 sp           (4194219)                rd s8           (0)imm 0x00000018  
+66812
+0x000104fc  LW          rs1 sp           (4194219)                rd s9           (0)imm 0x00000014  
+66816
+0x00010500  LW          rs1 sp           (4194219)                rd s10          (0)imm 0x00000010  
+66820
+0x00010504  LW          rs1 sp           (4194219)                rd s11          (0)imm 0x0000000c  
+66824
+0x00010508  ADDI        rs1 sp           (4194219)                rd sp           (4194283)imm 0x00000040  
+66828
+0x0001050c  JALR        rs1 ra           (66068)                rd zero         (66832)imm 0x00000000  
+66072
+0x00010218  LW          rs1 a0           (0)                rd a5           (0)imm 0x0000003c  
+66076
+0x0001021c  BEQ         rs1 a5           (0)rs2 zero         (0)               imm 0x00000008  
+66084
+0x00010224  ADDI        rs1 s0           (0)                rd a0           (0)imm 0x00000000  
+66088
+0x00010228  JAL                                         rd ra           (66092)imm 0x00000748  
+67952
+0x00010970  ADDI        rs1 zero         (0)                rd a1           (0)imm 0x00000000  
+67956
+0x00010974  ADDI        rs1 zero         (0)                rd a2           (0)imm 0x00000000  
+67960
+0x00010978  ADDI        rs1 zero         (0)                rd a3           (0)imm 0x00000000  
+67964
+0x0001097c  ADDI        rs1 zero         (0)                rd a7           (93)imm 0x0000005d  
+67968
+0x00010980  ECALL                                                                      
